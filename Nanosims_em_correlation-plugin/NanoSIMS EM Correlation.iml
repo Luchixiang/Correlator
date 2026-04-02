@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.slf4j:slf4j-simple:1.7.26" level="project" />
+    <orderEntry type="library" name="ai.djl.pytorch:pytorch-engine:0.22.0" level="project" />
+    <orderEntry type="library" name="net.imagej:ij:1.53j" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Open_MIMS.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../Open_MIMS.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: net.imagej:ij:1.54f" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: ai.djl.pytorch:pytorch-engine:0.23.0" level="project" />
+    <orderEntry type="library" name="Maven: org.openpnp:opencv:4.5.1-2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ai.djl.pytorch:pytorch-native-cpu:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.python:jython-standalone:2.7.3" level="project" />
+    <orderEntry type="library" name="Maven: ai.djl:api:0.23.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.20" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: net.imglib2:imglib2-ij:2.0.0-beta-46" level="project" />
+    <orderEntry type="library" name="Maven: net.imglib2:imglib2:5.12.0" level="project" />
+    <orderEntry type="library" name="Maven: net.imglib2:imglib2-cache:1.0.0-beta-16" level="project" />
+    <orderEntry type="library" name="Maven: com.github.ben-manes.caffeine:caffeine:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scijava:scijava-optional:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: net.imagej:imagej-common:0.34.1" level="project" />
+    <orderEntry type="library" name="Maven: net.imglib2:imglib2-roi:0.11.0" level="project" />
+    <orderEntry type="library" name="Maven: net.imglib2:imglib2-realtransform:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: gov.nist.math:jama:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: jitk:jitk-tps:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.efficient-java-matrix-library:ejml:0.24" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.trove4j:trove4j:3.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.scijava:scijava-common:2.87.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scijava:parsington:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.bushe:eventbus:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.scijava:scijava-table:0.7.0" level="project" />
+    <orderEntry type="library" name="Maven: edu.ucar:udunits:4.3.18" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.nrims:openmims:1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/main/resources/Open_MIMS.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

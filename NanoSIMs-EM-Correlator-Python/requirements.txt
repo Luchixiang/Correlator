@@ -1,0 +1,4 @@
+scipy==1.13.0
+opencv-python==4.9.0.80
+pillow
+pynrrd
