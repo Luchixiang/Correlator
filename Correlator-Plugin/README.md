@@ -15,7 +15,7 @@ Please note that we don't support macOS before 11.
 
 ### Run Correction
 
-1. Click plugin -> NanoSIMS Correlatve -> NanoSIMS EM Correlator
+1. Click plugin -> Correlator -> Correlator
 
 2. Browse the NanoSIMS and EM image. Input the pixel size of these two images.
 
@@ -25,4 +25,4 @@ Please note that we don't support macOS before 11.
 
     ![image-20240108200232561](./img/channel.png)
 
-4. Press ok and the alignment was done. The aligned nanoSIMS will be saved in the same folder as the raw NanoSIMS image. 
+4. The alignment was done. The aligned nanoSIMS will be saved in the same folder as the raw NanoSIMS image. 
