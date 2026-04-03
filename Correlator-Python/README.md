@@ -6,14 +6,14 @@ This repository contains the Python source code for our NanoSIMS EM Correlator, 
 
 ## Installation
 ```Shell
-git clone https://github.com/Luchixiang/NanoSIMS_EM_Correlator
-cd NanoSIMS_Stabilizer_Correlator/NanoSIMs-EM-Correlator-Python
+git clone https://github.com/Luchixiang/Correlator
+cd Correlator/Correlator-Python
 ```
 ## Requirements
 The code has been tested with PyTorch 2.0. 
 ```Shell
-conda create --name stabilizer python=3.9
-conda activate stabilizer
+conda create --name corelator python=3.9
+conda activate corelator
 conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 -c pytorch 
 pip install -r requirments.txt
 ```

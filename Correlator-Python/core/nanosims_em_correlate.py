@@ -1393,11 +1393,11 @@ if __name__ == '__main__':
     nano_path = args.nano_path
     em_res = args.em_res
     nano_res = args.nano_res
-
+    signal = args.channel
     from step1_v2 import find_coarse_alignment
 
     # 1. Run Step 1
-    step1_data = find_coarse_alignment(em_path, nano_path, nano_res_nm=nano_res, em_res_nm=em_res, signal='32S')
+    step1_data = find_coarse_alignment(em_path, nano_path, nano_res_nm=nano_res, em_res_nm=em_res, signal=signal)
     em_refined = step1_data['em_refined_patch']
     nanosims_refined = step1_data['corrected_nanosims']
     warp_matrix = demo(args, em_refined, nanosims_refined)
