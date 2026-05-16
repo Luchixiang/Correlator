@@ -283,7 +283,7 @@ public class FineAligner {
         // INTER_LINEAR | WARP_INVERSE_MAP  (flag value = 1 | 16 = 17)
         Imgproc.warpAffine(src, dst, warpMat, new Size(w, h),
                 Imgproc.INTER_LINEAR | Imgproc.WARP_INVERSE_MAP,
-                Core.BORDER_REPLICATE);
+                Core.BORDER_CONSTANT, new Scalar(0));
 
         return matToImageProcessor(dst, w, h);
     }
